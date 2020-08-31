@@ -27,7 +27,7 @@ public class Account {
     public void deposit(double depositAmount){
         this.balance += depositAmount;
         this.numberOfTransactions++;
-        System.out.println("Deposit of " + depositAmount + "made. New Balance is " + this.balance);
+        System.out.println("Deposit of " + depositAmount + " made. New Balance is " + this.balance);
     }
 
     public void withdrawal(double withdrawalAmount){
@@ -36,7 +36,7 @@ public class Account {
         }else{
             this.balance -= withdrawalAmount;
             this.numberOfTransactions++;
-            System.out.println("Withdrawal of " + withdrawalAmount + "processed. Remaining balance = " + this.balance);
+            System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining balance = " + this.balance);
         }
     }
 }
