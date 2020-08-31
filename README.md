@@ -1,4 +1,4 @@
-# JavaExercisesInheritance
+# Java Exercises (Inheritance)
 Week 2 Challenge
 
 Exercise 1
