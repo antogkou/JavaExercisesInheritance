@@ -42,7 +42,8 @@ public class StoreAccount extends Account {
     //TO BE FIXED
     public void changeCategory(){
         //this.accountCategory = category;
-        System.out.println("Choose a new category: 1. basic\n" +
+        System.out.println("Choose a new category: \n" +
+                "1. basic\n" +
                 "2. mid\n" +
                 "3. extra\n" +
                 "4. premium");

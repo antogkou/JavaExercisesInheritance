@@ -22,7 +22,7 @@ public class Main {
                 "Sherlocked Hats",
                 "premium");
 
-       // storeAccount.changeCategory();
+        storeAccount.changeCategory();
         System.out.println(storeAccount.getOwner());
         System.out.println(storeAccount.getAccountCategory());
 

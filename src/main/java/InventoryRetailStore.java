@@ -22,7 +22,7 @@ public class InventoryRetailStore implements IStore {
         if (products.contains(product)) {
             products.remove(product);
         }else {
-            System.out.println("This product cannot be removed. It does not exist in your inventory!");
+            System.out.println("The product with the name: " + product.getName() + " cannot be removed. It does not exist in your inventory!");
         }
     }
 
