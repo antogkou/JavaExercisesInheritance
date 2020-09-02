@@ -22,9 +22,10 @@ public class Main {
                 "Sherlocked Hats",
                 "premium");
 
+        //function to choose Store category
         storeAccount.changeCategory();
-        System.out.println(storeAccount.getOwner());
-        System.out.println(storeAccount.getAccountCategory());
+        System.out.println("Store owner is: " + storeAccount.getOwner());
+        System.out.println("Store category is: " + storeAccount.getAccountCategory());
 
         // Task 2 (part 1)
         Product x1 = new Product(1, "Painting Picasso. Guernica", 100, 1000);
@@ -44,6 +45,8 @@ public class Main {
         System.out.println(invStore.getRevenue());
         invStore.sell(x2);
         invStore.getInventory();
-        //invStore.reset();
+
+        //reset function clears all lists
+        invStore.reset();
     }
 }
